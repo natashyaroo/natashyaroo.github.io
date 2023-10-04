@@ -88,12 +88,14 @@
     }
     #ketua {
         text-align: center;
+        display: flex;
+        justify-content: center;
     }
     
     .ketua-info {
         display: flex;
-        justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
     
     .ketua-foto {
@@ -107,5 +109,5 @@
     }
     
     .ketua-detail {
-        text-align: left;
+        text-align: center;
     }
