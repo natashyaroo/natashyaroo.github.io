@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,19 +8,14 @@
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <div class="logo">
-                <img src="logo.png" alt="Logo Tim">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#beranda">Beranda</a></li>
-                    <li><a href="#tim">Guild Waker!</a></li>
-                    <li><a href="me.html">More About Us</a></li>
-                </ul>
-                <button id="darkModeToggle" class="dark-mode-button"></button>
-            </nav>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="javascript:void(0);" id="guildWakerLink">Guild Waker!</a></li>
+                <li><a href="me.html">More About Us</a></li>
+            </ul>
+            <button id="darkModeToggle" class="dark-mode-button"></button> <!-- Tombol Dark Mode -->
+        </nav>
     </header>
 
     <main>
@@ -58,6 +53,13 @@
     <footer>
         <p>&copy; #GUILDWAKER</p>
     </footer>
+    <div id="comingSoonPopup" class="popup">
+        <div class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <p>Coming Soon</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
